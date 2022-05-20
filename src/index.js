@@ -19,6 +19,7 @@ new p5((p5) => {
   p5.setup = () => {
     p5.pixelDensity(1);
     p5.frameRate(frameRate);
+    p5.randomSeed(noiseSeed);
     p5.noiseSeed(noiseSeed);
     p5._setupSize();
     p5.createCanvas(s, s);
