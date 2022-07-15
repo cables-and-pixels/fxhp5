@@ -12,7 +12,7 @@ console.table(window.$fxhashFeatures);
 
 new p5((p5) => {
   const frameRate = 30;
-  const noiseSeed = (fxrand() * 100_000) >> 0;
+  const noiseSeed = (fxrand() * (2 ** 32 - 1)) >>> 0;
   let fxpreviewDone = false;
   let s;
 
