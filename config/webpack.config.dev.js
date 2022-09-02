@@ -9,7 +9,7 @@ module.exports = {
     // https://webpack.js.org/concepts/hot-module-replacement/
     hot: false,
     port: 8080,
-    open: { app: 'brave-browser' },
+    open: true,
     client: {
       progress: true,
       overlay: {
