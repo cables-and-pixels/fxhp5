@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "lodash.debounce": "^4.0.8",
-    "p5": "^1.4.2"
+    "p5": "^1.5.0"
   },
   "devDependencies": {
     "adm-zip": "^0.5.9",
